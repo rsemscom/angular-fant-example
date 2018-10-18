@@ -1,0 +1,46 @@
+@import "../../../../variables/_variables"; //check this
+
+label {
+  width:90%;
+}
+
+input {
+  background: transparent;
+  border: 1px solid $authDefaultColor;
+  outline: none;
+  width:100%;
+  padding: 17px 10px;
+  color: $authDefaultColor;
+  margin-top: 5px;
+  font-size: 15px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+
+
+  &::placeholder {
+    letter-spacing: 5px;
+    color: $authPlaceholderColor;
+    font-size:12px;
+    text-transform: uppercase;
+  }
+
+  &:focus {
+    background: rgba(255, 255, 255, 0.2);
+  }
+}
+
+
+.error {
+  display: block;
+  min-height: 20px;
+  font-size: 12px;
+  margin-top: -20px;
+  line-height:20px;
+}
+
+
+@media (max-width: 1600px) {
+  input {
+    padding: 5px 10px;
+  }
+}

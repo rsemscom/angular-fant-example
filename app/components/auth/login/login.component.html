@@ -1,0 +1,19 @@
+<auth-layout [nav-links]="authLinks">
+
+
+
+  <form action="" (submit)="onSubmit()" [formGroup]="form">
+
+    <strong class="error d-block" *ngIf="error">{{error}}</strong>
+
+    <auth-form-input [field]="email" placeholder="EMAIL"></auth-form-input>
+
+    <auth-form-input [field]="password" placeholder="PASSWORD" type="password"></auth-form-input>
+
+    <div>
+      <button class="btn btn-auth-form">Sign In</button>
+    </div>
+
+  </form>
+
+</auth-layout>

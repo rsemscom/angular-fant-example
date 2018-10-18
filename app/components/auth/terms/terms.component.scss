@@ -1,0 +1,23 @@
+@import "../../../../variables/_variables"; //check this
+
+main {
+  height: 100vh;
+  max-height: 100vh;
+  min-height: 100vh;
+  color: $authDefaultColor;
+  font-family: $authDefaultFont;
+  line-height: 24px;
+  position: relative;
+}
+
+.container {
+  padding: 40px 5px;
+  min-width: 450px;
+  width: 90%;
+  margin: auto auto;
+}
+
+nav {
+  margin: 40px 0;
+}
+

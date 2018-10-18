@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="302px" height="67px" viewBox="0 0 302 67" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>CARD Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="0%" cy="100%" fx="0%" fy="100%" r="472.247553%" gradientTransform="translate(0.000000,1.000000),scale(0.216667,1.000000),rotate(-12.225123),translate(-0.000000,-1.000000)" id="radialGradient-1">
+            <stop stop-color="#00B2E3" offset="0%"></stop>
+            <stop stop-color="#004D71" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="SIDEBAR---FIREART" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="CARD-Copy" stroke="url(#radialGradient-1)" stroke-width="2" x="1" y="1" width="300" height="65" rx="5"></rect>
+    </g>
+</svg>

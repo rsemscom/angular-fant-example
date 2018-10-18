@@ -1,0 +1,8 @@
+<label (class)="hasError?'has-error':''">
+  <input [type]="type" [placeholder]="placeholder" autocomplete="off" [formControl]="field"/>
+
+
+  <span *ngIf="hasError" class="error">
+    {{error}}
+  </span>
+</label>

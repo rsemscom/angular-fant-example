@@ -1,0 +1,138 @@
+@import "variables/_variables";
+@import '~perfect-scrollbar/css/perfect-scrollbar.css';
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+.bg-gradient {
+  background: $gradientLeftColor; /* Old browsers */
+  background: -webkit-linear-gradient(45deg, $gradientLeftColor 0%, $gradientRightColor 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, $gradientLeftColor 0%, $gradientRightColor 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.text-futura-lt {
+  font-family: 'FuturaLt', sans-serif;
+}
+
+.btn.btn-auth-form {
+  background:transparent;
+  outline: none;
+  border-radius: 27px;
+  border: 1px solid $authDefaultColor;
+  color: $authDefaultColor;
+  text-transform: uppercase;
+  margin-top: 30px;
+  width: 270px;
+  height: 54px;
+  font-size: 20px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 5px;
+
+  &:focus, &:hover {
+    background: $gradientLeftColor;
+  }
+}
+
+@media (max-width:1600px) {
+
+  .btn.btn-auth-form {
+    width: 200px;
+    font-size: 16px;
+    letter-spacing: 4px;
+    height: 41px;
+  }
+
+}
+
+a {
+  text-decoration: none;
+}
+
+body, html {
+  min-height:100vh;
+  margin: 0;
+  padding: 0;
+}
+
+figure {
+  padding: 0;
+  margin: 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+.circle {
+  border-radius: 50%;
+}
+
+.relative {
+  position: relative;
+}
+
+
+.ps__rail-y {
+  background: none !important;
+  padding: 0;
+  opacity: 1;
+}
+
+
+
+.main-scroll {
+  .ps__rail-y {
+    background: rgba(192, 192, 192, 0.5) !important;
+    width: 10px;
+
+    &:hover, &:focus, &.ps--clicking {
+      width: 14px !important;
+    }
+
+    .ps__thumb-y {
+      background: $gradientLeftColor; /* Old browsers */
+      background: -webkit-linear-gradient(45deg, $gradientLeftColor 0%, $gradientRightColor 100%); /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(45deg, $gradientLeftColor 0%, $gradientRightColor 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    }
+  }
+}
+
+
+.right {
+  float: right;
+}
+
+
+.cdk-overlay-container {
+
+
+  .cdk-global-overlay-wrapper {
+    background: rgba(99, 113, 128, 0.5);
+
+    .cdk-overlay-pane {
+      z-index:2;
+    }
+
+    .mat-dialog-container {
+      background-color: #fff;
+      padding: 48px;
+      border: 2px solid rgba(99,113,128,0.5);
+    }
+  }
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+
+@media (max-width: 1600px) {
+
+  .btn.btn-auth-form {
+    margin-top:10px;
+  }
+
+}

@@ -1,0 +1,35 @@
+<main class="container-fluid bg-gradient main-scroll relative"   [perfectScrollbar]="{}">
+
+    <div fxLayout="row" >
+    <figure fxFlex="1 1 100%" class="lines-cnt relative">
+        <img src="/assets/img/auth/lines.svg" class="lines" alt="">
+    </figure>
+
+    <section class="auth_form_section d-flex flex-column" fxFlex="1 1 600px" fxLayout="column">
+
+      <div  fxFlex="1 1 100%">
+
+        <img src="/assets/img/auth/logo-full.png" alt="logo-full" class="logo"/>
+
+        <h1 class="caption">WELCOME TO FANTOO</h1>
+
+        <p class="description">
+          Lorem Ipsum is simply text of the printing and typesetting industry,Lorem Ipsum is simply dummy text of the printing typesetting industry.
+        </p>
+      </div>
+
+      <div fxFlex="1 1000 100%">
+        <ng-content></ng-content>
+
+        <nav class="navLinksMenu">
+          <ul>
+            <li *ngFor="let link of navLinks">
+              <a [routerLink]="link.routerLink">{{link.label}}</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+    </section>
+    </div>
+</main>

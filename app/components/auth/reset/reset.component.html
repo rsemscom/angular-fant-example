@@ -1,0 +1,17 @@
+<auth-layout [nav-links]="authLinks">
+
+
+
+  <form action="#fa" (submit)="onSubmit()" [formGroup]="form">
+
+    <strong class="error block" *ngIf="error">{{error}}</strong>
+
+    <auth-form-input [field]="email" placeholder="EMAIL"></auth-form-input>
+
+    <div>
+      <button class="btn btn-auth-form">Reset</button>
+    </div>
+
+  </form>
+
+</auth-layout>
