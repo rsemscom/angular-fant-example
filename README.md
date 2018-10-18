@@ -1,1 +1,1 @@
-Part of fantoo project (src dir)
+Part of fantoo project
